@@ -1,0 +1,584 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right, rgb(100, 255, 221), rgb(217, 164, 252), rgb(219, 204, 204));
+}
+
+header {
+    padding-top: 2%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.Soulitude {
+    margin: 0;
+    padding-top: 0;
+    font-size: 2em;
+    font-family: 'Satisfy', cursive;
+    color: rgb(0, 0, 88);
+}
+
+.Soulitude h1 {
+    margin: 0;
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    margin: 8px 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: rgb(0, 1, 46);
+}
+
+.nav-links ul li a:hover {
+    background: #18e3ad;
+    transition: 0.8s;
+    opacity: 80%;
+    border-radius: 20px;
+    color:blue;
+}
+
+.sm {
+    padding: 2px 30px;
+    border: black 2px solid;
+    border-radius: 5px 32px 32px 5px;
+    background: linear-gradient(to right, rgb(13, 0, 255), rgb(255, 132, 0));
+}
+
+.sm p {
+    font-size: 1.2em;
+    color: aliceblue;
+    margin: 5px;
+}
+
+.block2 {
+    position: relative;
+    width: 100%;
+    height: 83.5%;
+}
+
+.traveller {
+    position: absolute;
+    left: 10%;
+    height: 70%;
+    width: 60%;
+    top: 15%;
+    background: rgba(95, 95, 250, 0.2);
+    border-radius: 15px;
+    border: 5px solid #4200f7;
+}
+
+.traveller {
+    border: 5px solid white;
+}
+
+.traveller .h1 {
+    position: absolute;
+    left: 15%;
+    top: 6%;
+    color: black;
+}
+
+.traveller .h1 h1 {
+    font-size: 4em;
+    font-weight: 1000;
+    margin: 0;
+}
+
+.traveller .p {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    right: 35%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.traveller .p p {
+    font-size: 1.3em;
+    line-height: 1.2;
+    word-spacing: 2px;
+    letter-spacing: 0.8px;
+}
+
+.train {
+    position: absolute;
+    left: 5%;
+    height: 20%;
+    width: 15%;
+    top: 5%;
+    border-radius: 100%;
+    overflow: hidden;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, darkblue, darkorchid) border-box;
+    border-radius: 100%;
+    border: 4px solid transparent;
+    rotate: -17deg;
+}
+
+.train:hover {
+    transform: scale(1.2, 1.2);
+    transition: 0.8s;
+}
+
+.train img {
+    width: 100%;
+    height: 100%;
+}
+
+.plane {
+    position: absolute;
+    left: 5%;
+    height: 20%;
+    width: 15%;
+    top: 77%;
+    border-radius: 100%;
+    overflow: hidden;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, darkblue, darkorchid) border-box;
+    border-radius: 100%;
+    border: 4px solid transparent;
+    rotate: 17deg;
+}
+
+.plane:hover {
+    transform: scale(1.2, 1.2);
+    transition: 0.8s;
+}
+
+.plane img {
+    width: 100%;
+    height: 100%;
+}
+
+.travel-dude {
+    position: absolute;
+    right: 3.5%;
+    width: 40%;
+    top: 21%;
+    height: 60%;
+    border-radius: 15%;
+    overflow: hidden;
+}
+
+.travel-dude:hover {
+    transform: scale(1.1, 1.1);
+    transition: 1s;
+    box-shadow: 0 15px 30px rgb(27, 0, 59);
+}
+
+.travel-dude img {
+    width: 100%;
+    height: 100%;
+}
+
+.categories {
+    position: relative;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    background-image: url(bg1.webp);
+    background-size: cover;
+}
+
+.ch {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 4%;
+}
+
+.ch h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3em;
+}
+
+.six-cat {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 60%;
+    bottom: 11%;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.rows {
+    position: relative;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 2x solid white;
+    background: rgb(6, 6, 6);
+    text-align: center;
+    height: 50%;
+    width: 12%;
+}
+
+.rows:hover {
+    transform: scale(1.2, 1.2);
+    transition: 0.8s;
+    box-shadow: -10px 10px 15px rgb(126, 126, 126) inset;
+
+}
+
+.rows p {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.32em;
+
+}
+
+.icon-circle {
+    position: absolute;
+    border-radius: 100%;
+    background: white;
+    width: 35%;
+    height: 35%;
+    bottom: 24%;
+    left: 32.5%;
+    overflow: hidden;
+}
+
+.icon-circle img {
+    width: 100%;
+    height: 100%;
+}
+
+.upcoming-events {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, rgba(0, 255, 85, 0.619), rgba(0, 247, 255, 0.615));
+}
+
+.upcoming-events .bg {
+    width: 100%;
+    height: 100%;
+    transform: skew(-10deg, -10deg);
+
+}
+
+.upcoming-events .h1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 4%;
+}
+
+.upcoming-events .h1 h1 {
+    font-size: 3em;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    margin: 0;
+}
+
+.kalsubai {
+    position: absolute;
+    top: 14%;
+    width: 80%;
+    height: 40%;
+    left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gbr {
+    position: absolute;
+    bottom: 2%;
+    width: 80%;
+    height: 40%;
+    left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upcoming-events .pic {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    margin-top: 0;
+}
+
+.first {
+    right: 0;
+    border-radius: 100% 15px 15px 100%;
+    background: linear-gradient(to right, #E0FFFF, #e0ffff00);
+}
+
+.second {
+    left: 0;
+    border-radius: 15px 100% 100% 15px;
+    background: linear-gradient(to left, #E0FFFF, #e0ffff00);
+}
+
+.details {
+    position: absolute;
+    height: 80%;
+    width: 40%;
+    top: 10%;
+    background: rgb(84, 54, 255);
+    border-radius: 15px;
+    align-items: center;
+}
+
+.primero {
+    left: 20%;
+}
+
+.segundo {
+    right: 20%;
+}
+
+.guide {
+    position: absolute;
+    width: 13%;
+    height: 20%;
+    border-radius: 100%;
+    overflow: hidden;
+    bottom: 5%;
+    left: 10%;
+}
+
+.guide img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.segundo p {
+    position: absolute;
+    bottom: 2%;
+    left: 24%;
+    font-size: 1.1em;
+    color: white;
+}
+
+.primero p{
+    position: absolute;
+    bottom: 2%;
+    left: 24%;
+    font-size: 1.1em;
+    color: white;
+}
+
+.images {
+    position: absolute;
+    height: 80%;
+    width: 30%;
+    top: 10%;
+    border: 3px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+}
+
+.images:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 5px 5px 10px black;
+    transition: 0.5s;
+}
+
+.klb-img {
+    right: 8%;
+}
+
+.gbr-img {
+    left: 8%;
+}
+
+.mid-de {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 32%;
+    top: 35%;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.fila {
+    position: relative;
+    border-radius: 10px;
+    border: 2x solid white;
+    background: rgb(179, 183, 255);
+    text-align: center;
+    height: 100%;
+    width: 25%;
+}
+
+.fila p {
+    width: 80%;
+    margin: 0;
+    font-weight: 1000;
+    position: absolute;
+    font-size: 1.04em;
+    bottom: 0%;
+    left: 10%;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.price p {
+    bottom: 15%;    
+}
+
+.footer {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    text-align: center;
+    background: linear-gradient(to right, rgb(138, 40, 250), white, rgb(137, 53, 255));
+}
+  
+h3 {
+    border-top: 10px white;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.end {
+    position: absolute;
+    width: 60%;
+    height: 85%;
+    bottom: 0;
+    background: url(formandtext2.jpg);
+    background-size: cover;
+} 
+
+.end p {
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-style: italic;
+    margin: 4%;
+}
+
+form {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    text-align: left;
+    float:left;
+    padding-right: 2%;
+}
+  
+.form-group {
+    margin-bottom: 10px;
+}
+  
+label {
+    display: block;
+    color: #f2f2f2;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+  
+input[type="text"],
+input[type="email"],
+textarea,select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+  
+select option {
+    padding: 10px;
+    font-size: 16px;
+}
+  
+button[type="submit"] {
+    margin-top:10px;
+    background-color: #88e1ff3f;
+    color: white;
+    padding: 10px 20px;
+    border: 3px solid greenyellow;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+button[type="submit"]:hover {
+    background-color: #00688B;
+}
+
+.map {
+    position: absolute;
+    width: 40%;
+    height: 85%;
+    right: 0;
+    bottom: 0;
+    box-shadow: -10px -6px 15px rgb(21, 20, 20);
+}
+
+.map img {
+    width: 100%;
+    height: 100%;
+}
+
+.Soulitude2 {
+    position: relative;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Satisfy', cursive;
+    color: rgb(0, 0, 88);
+    text-align: center;
+    background: linear-gradient(to right, rgb(0, 0, 88),white,rgb(0, 0, 88) );
+    border: 5px solid rgb(0, 0, 83);
+
+}
+
+.Soulitude2 h1 {
+    border: 2px solid rgb(0, 0, 83);
+    margin: 0;
+}
+  
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
